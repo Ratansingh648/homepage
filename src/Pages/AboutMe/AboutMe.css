@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: #3b7eeb;
+  --bg-secondry: #18325b;
+  --btn-secondry: #3c3c3c;
+}
+
+.content-container {
+  margin-left: 280px;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.section-1 {
+  min-height: 350px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 50px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+
+.engineering-role {
+  font-size: 25px;
+  font-weight: 400;
+  color: #424242;
+}
+.job-description {
+  text-align: left;
+  line-height: 22px;
+  margin-top: 20px;
+  font-weight: 400;
+  color: #424242;
+  width: 500px;
+}
+
+#cover-pic {
+  margin-left: 50px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.button-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-portfolio-button {
+  display: flex;
+  background-color: var(--bg-primary);
+  color: white;
+  padding: 10px 12px 10px 12px;
+  border-radius: 4px;
+  margin-top: 25px;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  margin-right: 10px;
+}
+
+.view-portfolio-button h1 {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.view-portfolio-button:hover {
+  background-color: #336fce;
+}
+
+.view-resume-button {
+  display: flex;
+  background-color: var(--btn-secondry);
+  color: white;
+  padding: 10px 12px 10px 12px;
+  border-radius: 4px;
+  margin-top: 25px;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.view-resume-button h1 {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.view-resume-button:hover {
+  background-color: #2e2e2e;
+}
