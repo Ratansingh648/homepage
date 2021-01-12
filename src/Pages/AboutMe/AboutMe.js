@@ -16,9 +16,9 @@ export default function AboutMe() {
             <h1 className="name">Ratan Singh</h1>
             <h1 className="engineering-role">Machine Learning Engineer</h1>
             <p className="job-description">
-              I'm a software engineer specialised in frontend and backend
-              development for complex scalable web apps. I write about software
-              development on my blog. Want to know how I may help your project?
+              I'm a Machine Learning Engineer with skilled in Back-end 
+              engineering and Front-end engineering. I write about Data Science
+              on my blog. Want to know how I may help your project?
               Check out my project portfolio and online resume.
             </p>
             <div className="button-selector">

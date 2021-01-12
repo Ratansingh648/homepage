@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: #3b7eeb;
+  --bg-secondry: #18325b;
+  --btn-secondry: #3c3c3c;
+}
+
+.resume-container {
+  margin-left: 280px;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.section-1 {
+  min-height: 50px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}

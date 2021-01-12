@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import AboutMe from "../src/Pages/AboutMe/AboutMe.js";
+import Resume from "../src/Pages/Resume/Resume.js";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Route exact path="/">
             <Redirect to="/aboutme"></Redirect>
           </Route>
-          <Route exact path="/aboutme" component={AboutMe} />
+          <Route exact path="/resume" component={Resume} />
           <Route exact path="/aboutme" component={AboutMe} />
           <Route exact path="/aboutme" component={AboutMe} />
           <Route exact path="/aboutme" component={AboutMe} />
