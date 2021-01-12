@@ -10,17 +10,33 @@
   --btn-secondry: #3c3c3c;
 }
 
+.Resume {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .resume-container {
   margin-left: 280px;
   min-height: 100vh;
   background-color: #ffffff;
 }
 
-.section-1 {
+.download-section {
   min-height: 50px;
   background-color: #fafafa;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-bottom: 20px;
+}
+
+.resume-document {
+  align-items: center;
+  overflow-y: auto;
+}
+
+.resume-page {
+  width: 70%;
+  height: 70%;
+  box-shadow: 1px 2px solid #000000;
 }
